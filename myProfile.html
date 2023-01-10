@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/profile.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet">
+
+    <title>Profile-page</title>
+
+</head>
+
+<body>
+    <!-- Navigation bar 1 starts here -->
+    <div>
+        <header id="navbar-1">
+            <nav class="header-1 col-md-12 col-sm-12 col-lg-12 navbar navbar-expand-lg">
+
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/"><img src="./Images/facebook-icon.png" alt="facebook_icon"></a>
+                    <a href="https://www.youtube.com/"><img src="./Images/youtube-icon.png" alt="youtube_icon"></a>
+                    <a href="https://twitter.com/"><img src="./Images/twitter-icon.png" alt="twitter_icon"></a>
+                </div>
+
+                <div class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search">
+                    <img class="search-icon" src="./Images/search-icon.png" alt="Search-icon">
+                </div>
+
+
+                <div class="nav1-list">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-list">
+                        <li class="nav1-item">
+                            <img src="./Images/call-icon.png" alt="call_icon" id="call-icon">
+                        </li>
+                        <li class="nav1-item">
+                            <a href="#" id="mobile">+91 9838203708</a>
+                        </li>
+                        <li class="nav1-item">
+                            <a href="./seller.html">Sell on Company</a>
+                        </li>
+                        <li class="nav1-item">
+                            <a href="#">Download App</a>
+                        </li>
+                        <li class="nav1-item">
+                            <img class="flag-img" src="./Images/india.png" alt="language_icon" id="flag-icon">
+                            <select name="language_select" id="language_select">
+                                <option value="india">INDIA</option>
+                                <option value="canada">CANADA</option>
+                                <option value="uk">UK</option>
+                                <option value="germany">GERMANY</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Navigation bar 1 ends here -->
+
+    <!-- Section 2 of Navigation Panel  -->
+
+
+    <div id="header-sticky">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white header-sticky" id="sticky-section">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html"><img src="./Images/logo.png" class="img-responsive"
+                            alt="logo" aria="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-lg-0 nav-two">
+                            <li class="nav2-list">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="nav2-list">
+                                <a href="#" style="margin-left:5px;">Categories</a>
+                            </li>
+                            <li class="nav2-list">
+                                <a href="#">Latest </a>
+                            </li>
+                            <li class="nav2-list">
+                                <a href="#">Blog</a>
+                            </li>
+                            <li class="nav2-list">
+                                <a href="./myProfile.html">Profile</a>
+                            </li>
+                            <li class="nav2-list">
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="sign-in" role="sign-in">
+                            <a href="./addToCart.html"><img src="./images/cart-new.png" width="50px">
+                            </a>
+                            <a href="./wishlist.html"><img src="./images/wishlist-new.png" width="50px">
+                            </a>
+                            <a href="./login.html"> <button class="rounded-4 btn btn-warning" type="button"
+                                    data-toggle="modal" data-target="#reg-modal"> SIGN IN </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- End of navigation panel 2 -->
+
+
+    <!-- light navbar starts -->
+    <nav aria-label="breadcrumb" class="path">
+        <ol class="breadcrumb mx-5" id="path-finder">
+            <li class="breadcrumb-item"><a href="#">Home /</a></li>
+            <li class="breadcrumb-item " aria-current="page"><a href="#">Return Order</a></li>
+        </ol>
+    </nav>
+    <!-- light navbar ends -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <ul class="list-items">
+                        <div class=" mx-5 mb-4 mt-3">
+                            <div class="headline-name ">
+                                <b>MY ACCOUNT</b>
+                            </div>
+                            <img src="./Images/Image 161.png" alt="men-img">
+                            <p>A.D</p>
+                            <p>Full Stack Developer </p>
+                            <p>amatullahd99@gmail.com</p>
+                        </div>
+                        <div class=" mx-5 mb-4 ">
+                            <div class="headline-name ">
+                                <b>ORDERS</b>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item color-hover"><a href="#"><button type="button" class="btn">My
+                                            Order</button></a> </li>
+                                <li class="list-group-item color-hover"><a href="#"><button type="button"
+                                            class="btn">Track
+                                            Order</button></a> </li>
+                                <li class="list-group-item color-hover"><a href="#"><button type="button"
+                                            class="btn">Return
+                                            Order</button></a> </li>
+                                <li class="list-group-item color-hover"><a href="#"><button type="button"
+                                            class="btn">Cancelled
+                                            Order</button></a> </li>
+                            </ul>
+                        </div>
+                        <div class="mx-5 mb-4 ">
+                            <div class="headline-name ">
+                                <b> ACCOUNT</b>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item color-hover"> <a href="./Myprofile.html"><button
+                                            type="button" class="btn">Profile</button></a></li>
+                                <li class="list-group-item color-hover"><a href="#"><button type="button"
+                                            class="btn">Saved
+                                            Addresses</button></a></li>
+                                <li class="list-group-item color-hover"><a href="#"><button type="button"
+                                            class="btn">Saved
+                                            Card</button></a></li>
+                                <li class="list-group-item color-hover"><a href="#"><button type="button"
+                                            class="btn">Changed
+                                            Password</button></a></li>
+                                <li class="list-group-item color-hover"><a href="#"><button type="button"
+                                            class="btn">Wishlist</button></a></li>
+                            </ul>
+                        </div>
+                        <div class="mx-5 mb-4 ">
+                            <div class="headline-name ">
+                                <b> PAYMENT </b>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item color-hover"><a href="#"><button type="button"
+                                            class="btn">Phonepe</button></a></li>
+                                <li class="list-group-item color-hover"><a href="#"><button type="button"
+                                            class="btn">Gift
+                                            Card</button></a></li>
+                                <li class="list-group-item color-hover"><a href="#"><button type="button"
+                                            class="btn">Debit
+                                            Card</button></a></li>
+                                <li class="list-group-item color-hover"><a href="#"><button type="button"
+                                            class="btn">Credit</button></a></li>
+                            </ul>
+                        </div>
+
+                </div>
+
+
+
+            </div>
+
+
+            <div class="col-lg-8">
+                <div class="row border-bottom">
+                    <h3 class="Profile-heading col-6 mt-3 ">MY PROFILE</h3>
+                    <div class="col-6 mt-2 d-flex"></div>
+                </div>
+                <table class="table table-borderless">
+                    <thead>
+                        <tr>
+                            <th scope="col">Mobile</th>
+                            <th scope="col">9941243609</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Full Name</th>
+                            <td>Lorel Ipsum</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Email Id</th>
+                            <td>lorel@gmail.com</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Gender</th>
+                            <td colspan="2">Male</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Date Of Birth</th>
+                            <td colspan="2" class="text-muted">-not added-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Location</th>
+                            <td colspan="2" class="text-muted">-not added-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Alternate Mobile</th>
+                            <td colspan="2"><b>Alternate Mobile</b></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Nickname</th>
+                            <td colspan="2">abcdef</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="button">
+                    <a href="./edit_page.html"><button class="btn btn-warning" type="edit">EDIT
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Payment Method Section Starts -->
+
+
+    <div class="container text-center ">
+        <div class="row  section-3">
+
+            <div class="col">
+                <div class="payment-section">
+                    <img src="./images/Image 34.png" alt="sec-payment">
+                    <div class="payment-head">
+                        <h3>100% SECURE PAYMENTS</h3>
+                    </div>
+                    <div class="para-head">
+                        <p>Turpis Eleifend Vitae Malesuada Magna Congue. Damus Id Ullamcorper Neque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="payment-section">
+                    <img src="./images/Image 35.png" alt="true-payment">
+                    <div class="payment-head">
+                        <h2>TRUSTPAY</h2>
+                    </div>
+                    <div class="para-head">
+                        <p>Turpis Eleifend Vitae Malesuada Magna Congue. Damus Id Ullamcorper Neque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="payment-section">
+                    <img src="./images/Image 36.png" alt="help-center">
+                    <div class="payment-head">
+                        <h2>HELP CENTER</h2>
+                    </div>
+                    <div class="para-head">
+                        <p>Turpis Eleifend Vitae Malesuada Magna Congue. Damus Id Ullamcorper Neque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="payment-section">
+                    <img src="./images/Image 37.png" alt="shop-on-go">
+                    <div class="payment-head">
+                        <h2>SHOP ON GO</h2>
+                    </div>
+                    <div class="para-head">
+                        <p>Turpis Eleifend Vitae Malesuada Magna Congue. Damus Id Ullamcorper Neque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Payment Method Section Ends -->
+
+
+    <!-- Footer Section Starts From Here -->
+
+
+    <footer class="bg-light text-center text-lg-start">
+
+        <div class="container p-4">
+
+            <div class="row">
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">POLICY INFO</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#" class="lists">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lists">Terms of Sale</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lists">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lists">Report Abuse & Takedown Policy</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">COMPANY</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="lists">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Core Values</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Site Map</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">SNAPDEAL BUSINESS</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="lists">Shopping App</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Sell on Snapdeal</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Advertise on Snapdeal</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Media Enquiries</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Be an Affiliate</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">NEED HELP?</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="lists">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Online Shopping</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">SUBSCRIBE</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="lists"></a>
+                        </li>
+                        <li>
+                            <input type="text" name="E-mail" id="" placeholder="Your E-mail Address"></a>
+                            <a href="#"> <button class="subscribe-btn">Subscribe</button> </a>
+                        </li>
+                        <li>
+                            <a href="#" class="lists">Register now to get Updates on promotions and
+                                coupons. or
+                                <a href="#"> Download App </a>
+                        </li>
+                        <li>
+                            <a href="#" class="lists"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Footer Policies and Methods Section Ends -->
+
+    <div class="img-fluid moveTop" id="scrollUp">
+        <a href="#">
+            <img class="move-top" src="./Images/movetotoparrow.png" alt="move to top"></a>
+    </div>
+
+
+    <hr>
+
+
+    <!-- Footer Payments and Connections Code Begins -->
+    <footer>
+        <section class="footer-part">
+
+            <div class="footer-heading">
+                <h4>PAYMENTS</h4>
+                <h4>CONNECT</h4>
+            </div>
+
+            <div class="last-section">
+
+                <div class="footer-payment">
+                    <a href="#"> <img src="./Images/Image 38.png" alt="card-1"></a>
+                    <a href="#"> <img src="./Images/Image 39.png" alt="card-2"></a>
+                    <a href="#"> <img src="./Images/Image 40.png" alt="card-3"></a>
+                    <a href="#"> <img src="./Images/Image 41.png" alt="card-4"></a>
+                    <a href="#"> <img src="./Images/Image 42.png" alt="card-5"></a>
+                    <a href="#"> <img src="./Images/Image 43.png" alt="card-6"></a>
+                </div>
+
+                <div class="d-flex footer-connect">
+                    <a href="#"> <img src="./Images/facebook.png" alt="facebook"></a>
+                    <a href="#"> <img src="./Images/twitter.png" alt="twitter"></a>
+                    <a href="#"> <img src="./Images/youtube.png" alt="youtube"></a>
+                    <a href="#"> <img src="./Images/instagram.png" alt="instagram"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Footer Section Ends Here -->
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
+</body>

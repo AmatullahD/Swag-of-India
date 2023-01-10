@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/productlisting-1.css">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet">
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <title>Product Details</title>
+
+</head>
+
+<body>
+    <!-- Navigation bar 1 starts here -->
+    <div>
+        <header id="navbar-1">
+            <nav class="header-1 col-md-12 col-sm-12 col-lg-12 navbar navbar-expand-lg">
+
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/"><img src="./Images/facebook-icon.png" alt="facebook_icon"></a>
+                    <a href="https://www.youtube.com/"><img src="./Images/youtube-icon.png" alt="youtube_icon"></a>
+                    <a href="https://twitter.com/"><img src="./Images/twitter-icon.png" alt="twitter_icon"></a>
+                </div>
+
+                <div class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search">
+                    <img class="search-icon" src="./Images/search-icon.png" alt="Search-icon">
+                </div>
+
+
+                <div class="nav1-list">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-list">
+                        <li class="nav1-item">
+                            <img src="./Images/call-icon.png" alt="call_icon" id="call-icon">
+                        </li>
+                        <li class="nav1-item">
+                            <a href="#" id="mobile">+91 9838203708</a>
+                        </li>
+                        <li class="nav1-item">
+                            <a href="./seller.html">Sell on Company</a>
+                        </li>
+                        <li class="nav1-item">
+                            <a href="#">Download App</a>
+                        </li>
+                        <li class="nav1-item">
+                            <img class="flag-img" src="./Images/india.png" alt="language_icon" id="flag-icon">
+                            <select name="language_select" id="language_select">
+                                <option value="india">INDIA</option>
+                                <option value="canada">CANADA</option>
+                                <option value="uk">UK</option>
+                                <option value="germany">GERMANY</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Navigation bar 1 ends here -->
+
+
+
+    <!-- Section 2 of Navigation Panel  -->
+
+
+    <div id="header-sticky">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white header-sticky" id="sticky-section">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html"><img src="./Images/logo.png" class="img-responsive"
+                            alt="logo" aria="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-lg-0 nav-two">
+                            <li class="nav2-list">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="nav2-list">
+                                <a href="#" style="margin-left:5px;">Categories</a>
+                            </li>
+                            <li class="nav2-list">
+                                <a href="#">Latest </a>
+                            </li>
+                            <li class="nav2-list">
+                                <a href="#">Blog</a>
+                            </li>
+                            <li class="nav2-list">
+                                <a href="./myProfile.html">Profile</a>
+                            </li>
+                            <li class="nav2-list">
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="sign-in" role="sign-in">
+                            <a href="./addToCart.html"><img src="./images/cart-new.png" width="50px">
+                            </a>
+                            <a href="./wishlist.html"><img src="./images/wishlist-new.png" width="50px">
+                            </a>
+                            <a href="./login.html"> <button class="rounded-4 btn btn-warning" type="button"
+                                    data-toggle="modal" data-target="#reg-modal"> SIGN IN </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- End of navigation panel 2 -->
+
+    <!-- breadcrumb starts -->
+
+    <nav aria-label="breadcrumb" class="nav-gray">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Appliances</a></li>
+            <li class="breadcrumb-item" aria-current="page"> <a href="#"><b>Fans</b></a></li>
+        </ol>
+    </nav>
+    <!-- breadcrumb ends -->
+
+    <!-- first section main content  starts -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <ul class="list-items">
+                        <div class=" mx-5 mb-2 mt-3">
+                            <img src="./Images/product3.png" class="return-order-page-img" alt="" width="90px"
+                                height="100px">
+                        </div>
+                        <div class=" mx-5 mb-2 mt-3">
+                            <img src="./Images/product3.png" class="return-order-page-img" alt="" width="90px"
+                                height="100px">
+                        </div>
+                        <div class="mx-5 mb-2 ">
+                            <img src="./Images/product3.png" class="return-order-page-img" alt="" width="90px"
+                                height="100px">
+                        </div>
+                        <div class="mx-5 mb-2">
+                            <img src="./Images/product3.png" class="return-order-page-img" alt="" width="90px"
+                                height="100px">
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="col-lg-10">
+
+                <div class="mt-3">
+
+                    <div class="mt-3 mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="./Images/product3.png" class="return-order-page-img" alt="" width="400px"
+                                    height="500px">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title order-id">Classic Chinos Pants</h5>
+                                    <p>
+                                        <span class="rating" id="all_star">
+                                            <i class="rating_star fas fa-star"></i>
+                                            <i class="rating_star fas fa-star"></i>
+                                            <i class="rating_star fas fa-star"></i>
+                                            <i class="rating_star far fa-star"></i>
+                                            <i class="rating_star far fa-star"></i>
+                                        </span>
+                                        <span class="rating-text">39,122 ratings | 1000+ answered questions</span>
+                                    </p>
+
+                                    <p class="prod-price-offer">
+                                        <span class="actual-price"><b> Rs 1099.0 </b></span>
+                                        <span class="discount"><del> Rs 2748.0/-</del></span>
+                                        <span class="percent-off">(60%) Off</span>
+                                    </p>
+
+                                    <div>
+                                        <h6>Short Description</h6>
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+                                            reprehenderit repellat nobis facere magnam velit minus maxime consectetur
+                                            laudantium modi,
+                                            sequiperferendis, dolores beatae odit, quae ut nam earum et.</p>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="row">
+                                    <div class="col-8 selectsize-text"> SELECT SIZE</div>
+
+                                    <div class="col-4">Quantity </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-8 size" role="size-check">
+                                        <a href="#"> <button class="btn" type="size">39</button></a>
+                                        <a href="#"> <button class="btn" type="size">40</button></a>
+                                        <a href="#"> <button class="btn" type="size">42</button></a>
+                                        <a href="#"> <button class="btn" type="size">44</button></a>
+                                    </div>
+                                    <!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+                                    <div class="col-4 d-flex1">
+                                        <div class="input-group plus-minus-input">
+                                            <div class="input-group-button">
+                                                <button type="button" class="button hollow circle" data-quantity="minus"
+                                                    data-field="quantity">
+                                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <input class="input-group-field" type="number" name="quantity" value="0"
+                                                width="5px">
+                                            <div class="input-group-button">
+                                                <button type="button" class="button hollow circle" data-quantity="plus"
+                                                    data-field="quantity">
+                                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-5 button-one">
+                                        <button class="rounded-4 btn btn-warning" type="button"> ADD TO
+                                            CART</button>
+                                    </div>
+                                    <div class="col-5 button-one">
+                                        <button class="rounded-4 btn btn-warning" type="button"> BUY
+                                            NOW</button>
+                                    </div>
+                                    <div class="col-2">
+                                        <button class="heart-btn"><i class="far fa-heart"></i></button>
+                                    </div>
+                                </div>
+                                <br>
+                                <div>
+                                    <p class="sharethis-text">SHARE THIS
+                                        <a href="#"><img class="social-icon1" src="./Images/facebook-icon.png"
+                                                alt="facebook_icon"></a>
+                                        <a href="#"><img class="social-icon1" src="./Images/youtube-icon.png"
+                                                alt="youtube_icon"></a>
+                                        <a href="#"><img class="social-icon1" src="./Images/twitter-icon.png"
+                                                alt="twitter_icon"></a>
+                                    </p>
+                                </div>
+                                <br>
+
+                                <div class="help-center1">
+                                    <img class="images" src="./Images/delivery-truck.png" alt="delivery_truck">
+                                    <b>DELIVERY & RETURN</b>
+                                    <img class="image1" src="./Images/support.png" alt="online_support">
+                                    <b>ONLINE SUPPORT 24/7</b>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- first section main content  ends -->
+
+        <!-- second section starts -->
+
+        <div class="nav-products1">
+            <a href="#" class="nav-item-active">Description</a>
+            <a href="#" class="nav-item">Sizing Guide</a>
+            <a href="#" class="nav-item">Assigned Tags</a>
+            <a href="#" class="nav-item">Many Custom Tags</a>
+        </div>
+
+        <div class="headline">
+            <p>Gives you a complete account of the system</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptatum quas beatae numquam maxime aut
+            labore obcaecati! Velit dolor commodi distinctio pariatur deserunt facere eveniet praesentium voluptates cum
+            temporibus. Perferendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+            nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+            tenetur error, harum nesciunt ipsum debitis quas aliquid.
+        </p>
+        <p>quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
+            sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+            recusandae alias error harum maxime adipisci amet laborum. Perspiciatis
+            minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit
+            quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur
+            fugiat, temporibus enim commodi iusto libero magni deleniti quod quam
+            consequuntur! Commodi minima excepturi repudiandae velit hic maxime
+            doloremque. Quaerat provident commodi consectetur veniam similique ad
+            earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo
+            fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore
+            suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
+            modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam
+            totam ratione voluptas quod exercitationem fuga.
+        </p>
+
+        <p>Reprehenderit,quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
+            sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+            recusandae alias error harum maxime adipisci amet laborum. Perspiciatis
+            minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit
+            quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur
+            fugiat, temporibus enim commodi iusto libero magni deleniti quod quam
+            consequuntur! Commodi minima excepturi repudiandae velit hic maxime
+            doloremque. Quaerat provident commodi consectetur veniam similique ad
+            earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo
+            fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore
+            suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
+            modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam
+            totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam
+            quasi aliquam eligendi, placeat qui corporis!
+        </p>
+
+    </div>
+
+    <hr>
+
+    <!-- second section ends -->
+
+
+    <!-- third section starts -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4 mt-5">
+                <h4>Customer Reviews</h4>
+                <span class="rating" id="star_rating">
+                    <i class="rating_star fas fa-star"></i>
+                    <i class="rating_star fas fa-star"></i>
+                    <i class="rating_star fas fa-star"></i>
+                    <i class="rating_star far fa-star"></i>
+                    <i class="rating_star far fa-star"></i>
+                </span>
+                <span class="rating-text1">2.5 out of 5 stars</span>
+
+                <div>customer ratings</div>
+
+
+
+                <div class="progress-div">
+                    <span class="text">5 Star</span>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning font-weight-bold" role="progressbar" style="width: 87%"
+                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="text percent-text">80%</span>
+                </div>
+                <div class="progress-div">
+                    <span>4 Star</span>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning font-weight-bold" role="progressbar" style="width: 80%"
+                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="percent-text">80%</span>
+                </div>
+                <div class="progress-div">
+                    <span>3 Star</span>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning font-weight-bold" role="progressbar" style="width: 40%"
+                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="percent-text">40%</span>
+                </div>
+                <div class="progress-div">
+                    <span>2 Star</span>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning font-weight-bold" role="progressbar" style="width: 10%"
+                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="percent-text">10%</span>
+                </div>
+                <div class="progress-div">
+                    <span class="text">1 Star</span>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning font-weight-bold" role="progressbar" style="width: 20%"
+                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="text percent-text">20%</span>
+                </div>
+                <div class="write-review mt-5">
+                    <h6 class="font-weight-bold">Review this Product</h6>
+                    <p>Share your thoughts with other customers</p>
+                    <button type="button" class="review-button" aria-label='cart button'>Write a
+                        Product
+                        Review</button>
+                </div>
+            </div>
+            <div class="col-8 mt-5">
+                <div>
+                    <img src="./Images/user_pic.png">
+                    <span><b>Dr. John Varghese Parampil</b></span>
+                    <div>
+                        <span class="rating">
+                            <i class="fas fa-star org"></i>
+                            <i class="fas fa-star org"></i>
+                            <i class="fas fa-star org"></i>
+                            <i class="far fa-star org"></i>
+                            <i class="far fa-star org"></i>
+                        </span>
+                        <span><b>Early Delivery, very Reasonable Price</b></span>
+                    </div>
+                    <div class="normal_text">Reviewed in India on 8 July 2020</div>
+                    <div class="verified_text">Verified Purchase</div>
+                    <p class="product-desc">Good fitting and comfort. I was easily able to wear these an entire day
+                        without
+                        any discomfort.
+                        The material of linen used seems very soft and of good quality. The dress comes with 10days
+                        exchange
+                        offer
+                        which is great if you want to exchange for any reason for a full cashback. Overall happy with my
+                        purchase
+                        and would recommend this for anyone looing for stylish winter wear.
+                    </p>
+                    <div class="helpful-content">
+                        <button type="button" class="review-button btn btn-warning mr-3"
+                            aria-label='cart button'>Helpful</button> | <span class="ml-2 mr-2 text1"><a
+                                href="#">Comment</a></span> | <span class="ml-2 text1"><a href="#">Report
+                                Abuse</a></span>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <img src="./Images/user_pic.png">
+                    <span><b>Dr. John Varghese Parampil</b></span>
+                    <div>
+                        <span class="rating">
+                            <i class="fas fa-star org"></i>
+                            <i class="fas fa-star org"></i>
+                            <i class="fas fa-star org"></i>
+                            <i class="far fa-star org"></i>
+                            <i class="far fa-star org"></i>
+                        </span>
+                        <span><b>Early Delivery, very Reasonable Price</b></span>
+                    </div>
+                    <div class="normal_text">Reviewed in India on 8 July 2020</div>
+                    <div class="verified_text">Verified Purchase</div>
+                    <p class="product-desc">Good fitting and comfort. I was easily able to wear these an entire day
+                        without
+                        any discomfort.
+                        The material of linen used seems very soft and of good quality. The dress comes with 10days
+                        exchange
+                        offer
+                        which is great if you want to exchange for any reason for a full cashback. Overall happy with my
+                        purchase
+                        and would recommend this for anyone looing for stylish winter wear.
+                    </p>
+                    <div class="helpful-content">
+                        <button type="button" class="review-button btn btn-warning mr-3"
+                            aria-label='cart button'>Helpful</button> | <span class="ml-5 mr-2 text1"><a
+                                href="#">Comment</a></span> | <span class="ml-5 text1"><a href="#">Report
+                                Abuse</a></span>
+                    </div>
+                </div>
+                <br>
+                <div class="see-all_text"><a href="#"> See all review from India</a></div>
+            </div>
+        </div>
+        <hr>
+        <!-- third section ends-->
+
+        <!--  fourth Section Related Product Starts-->
+
+        <div class="related-product">
+            <div class="flex">
+                <div class="rp-heading">
+                    RELATED PRODUCTS
+                </div>
+            </div>
+
+        </div>
+        <div class="container text-center">
+
+            <div class="row g-2">
+
+                <div class="col-lg-2 col-md-4">
+                    <div class="card">
+                        <img src="./Images/product2.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <div>Dummy text lorel</div>
+                            <div>
+                                <span>Rs 1099.00</span>
+                                <del>Rs 2748.00</del>
+                                <span>(60% off)</span>
+
+                            </div>
+
+                            <div>
+                                <span class="rating">
+                                    <i class="fas fa-star org"></i>
+                                    <i class="fas fa-star org"></i>
+                                    <i class="fas fa-star org"></i>
+                                    <i class="far fa-star org"></i>
+                                    <i class="far fa-star org"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="card">
+                        <img src="./Images/product2.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <div>Dummy text lorel</div>
+                            <div>
+                                <span>Rs 1099.00</span>
+                                <del>Rs 2748.00</del>
+                                <span>(60% off)</span>
+
+                            </div>
+
+                            <div>
+                                <span class="rating">
+                                    <i class="fas fa-star org"></i>
+                                    <i class="fas fa-star org"></i>
+                                    <i class="fas fa-star org"></i>
+                                    <i class="far fa-star org"></i>
+                                    <i class="far fa-star org"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="card">
+                        <img src="./Images/product2.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <div>Dummy text lorel</div>
+                            <div>
+                                <span>Rs 1099.00</span>
+                                <del>Rs 2748.00</del>
+                                <span>(60% off)</span>
+
+                            </div>
+
+                            <div>
+                                <span class="rating">
+                                    <i class="fas fa-star org"></i>
+                                    <i class="fas fa-star org"></i>
+                                    <i class="fas fa-star org"></i>
+                                    <i class="far fa-star org"></i>
+                                    <i class="far fa-star org"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="card">
+                        <img src="./Images/product2.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <div>Dummy text lorel</div>
+                            <div>
+                                <span>Rs 1099.00</span>
+                                <del>Rs 2748.00</del>
+                                <span>(60% off)</span>
+
+                            </div>
+
+                            <div>
+                                <span class="rating">
+                                    <i class="fas fa-star org"></i>
+                                    <i class="fas fa-star org"></i>
+                                    <i class="fas fa-star org"></i>
+                                    <i class="far fa-star org"></i>
+                                    <i class="far fa-star org"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="card">
+                        <img src="./Images/product2.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <div>Dummy text lorel</div>
+                            <div>
+                                <span>Rs 1099.00</span>
+                                <del>Rs 2748.00</del>
+                                <span>(60% off)</span>
+
+                            </div>
+
+                            <div>
+                                <span class="rating">
+                                    <i class="fas fa-star org"></i>
+                                    <i class="fas fa-star org"></i>
+                                    <i class="fas fa-star org"></i>
+                                    <i class="far fa-star org"></i>
+                                    <i class="far fa-star org"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="card">
+                        <img src="./Images/product2.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <div>Dummy text lorel</div>
+                            <div>
+                                <span>Rs 1099.00</span>
+                                <del>Rs 2748.00</del>
+                                <span>(60% off)</span>
+
+                            </div>
+
+                            <div>
+                                <span class="rating">
+                                    <i class="fas fa-star org"></i>
+                                    <i class="fas fa-star org"></i>
+                                    <i class="fas fa-star org"></i>
+                                    <i class="far fa-star org"></i>
+                                    <i class="far fa-star org"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--  fourth Section Related Product Ends-->
+
+    <!-- Payment Method Section Starts -->
+    <br>
+
+    <div class="container text-center ">
+        <div class="row  section-3" id="section-3">
+
+            <div class="col">
+                <div class="payment-section">
+                    <img src="./images/Image 34.png" alt="sec-payment">
+                    <div class="payment-head">
+                        <h3>100% SECURE PAYMENTS</h3>
+                    </div>
+                    <div class="para-head">
+                        <p>Turpis Eleifend Vitae Malesuada Magna Congue. Damus Id Ullamcorper Neque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="payment-section">
+                    <img src="./images/Image 35.png" alt="true-payment">
+                    <div class="payment-head">
+                        <h2>TRUSTPAY</h2>
+                    </div>
+                    <div class="para-head">
+                        <p>Turpis Eleifend Vitae Malesuada Magna Congue. Damus Id Ullamcorper Neque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="payment-section">
+                    <img src="./images/Image 36.png" alt="help-center">
+                    <div class="payment-head">
+                        <h2>HELP CENTER</h2>
+                    </div>
+                    <div class="para-head">
+                        <p>Turpis Eleifend Vitae Malesuada Magna Congue. Damus Id Ullamcorper Neque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="payment-section">
+                    <img src="./images/Image 37.png" alt="shop-on-go">
+                    <div class="payment-head">
+                        <h2>SHOP ON GO</h2>
+                    </div>
+                    <div class="para-head">
+                        <p>Turpis Eleifend Vitae Malesuada Magna Congue. Damus Id Ullamcorper Neque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Payment Method Section Ends -->
+
+
+    <!-- Footer Section Starts From Here -->
+
+
+    <footer class="bg-light text-center text-lg-start">
+
+        <div class="container p-4">
+
+            <div class="row">
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">POLICY INFO</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#" class="lists">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lists">Terms of Sale</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lists">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lists">Report Abuse & Takedown Policy</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">COMPANY</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="lists">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Core Values</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Site Map</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">SNAPDEAL BUSINESS</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="lists">Shopping App</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Sell on Snapdeal</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Advertise on Snapdeal</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Media Enquiries</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Be an Affiliate</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">NEED HELP?</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="lists">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists">Online Shopping</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lists"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">SUBSCRIBE</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="lists"></a>
+                        </li>
+                        <li>
+                            <input type="text" name="E-mail" id="" placeholder="Your E-mail Address"></a>
+                            <a href="#"> <button class="subscribe-btn">Subscribe</button> </a>
+                        </li>
+                        <li>
+                            <a href="#" class="lists">Register now to get Updates on promotions and coupons. or
+                                <a href="#"> Download App </a>
+                        </li>
+                        <li>
+                            <a href="#" class="lists"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Footer Policies and Methods Section Ends -->
+
+    <div class="img-fluid moveTop" id="scrollUp">
+        <a href="#">
+            <img class="move-top" src="./Images/movetotoparrow.png" alt="move to top"></a>
+    </div>
+
+
+    <hr>
+
+
+    <!-- Footer Payments and Connections Code Begins -->
+    <footer>
+        <section class="footer-part">
+
+            <div class="footer-heading">
+                <h4>PAYMENTS</h4>
+                <h4>CONNECT</h4>
+            </div>
+
+            <div class="last-section">
+
+                <div class="footer-payment">
+                    <a href="#"> <img src="./Images/Image 38.png" alt="card-1"></a>
+                    <a href="#"> <img src="./Images/Image 39.png" alt="card-2"></a>
+                    <a href="#"> <img src="./Images/Image 40.png" alt="card-3"></a>
+                    <a href="#"> <img src="./Images/Image 41.png" alt="card-4"></a>
+                    <a href="#"> <img src="./Images/Image 42.png" alt="card-5"></a>
+                    <a href="#"> <img src="./Images/Image 43.png" alt="card-6"></a>
+                </div>
+
+                <div class="d-flex footer-connect">
+                    <a href="#"> <img src="./Images/facebook.png" alt="facebook"></a>
+                    <a href="#"> <img src="./Images/twitter.png" alt="twitter"></a>
+                    <a href="#"> <img src="./Images/youtube.png" alt="youtube"></a>
+                    <a href="#"> <img src="./Images/instagram.png" alt="instagram"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Footer Section Ends Here -->
+
+
+
+
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+        </script>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

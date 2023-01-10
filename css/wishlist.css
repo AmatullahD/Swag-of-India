@@ -1,0 +1,421 @@
+/* Resetting With Universal Selector */
+@import url('./theme.css');
+@import url('./loginStyle.css');
+
+
+* {
+    margin: 0;
+}
+
+/* Top Bar Styling Starts */
+
+body {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+}
+
+/* .sticky-top {
+    position: sticky;
+} */
+
+.header-1 {
+    width: 100%;
+    padding: 13px 10px;
+    background-color: orange;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+}
+
+#navbar-1 {
+    width: 100%;
+}
+
+.header-sticky {
+    box-shadow: 0 8px 8px -4px #ccc;
+}
+
+#sticky-section {
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(122, 117, 117);
+    height: 100px;
+    box-shadow: 0, 10px, 15px, rgba(25, 25, 25, 0.1);
+    padding-bottom: 10px;
+}
+
+.social-icon {
+    margin: 10px;
+    padding-left: 160px;
+}
+
+.form-control {
+    margin-left: 5px;
+}
+
+.nav1-list {
+    padding-left: 10px;
+}
+
+.nav1-item {
+    white-space: nowrap;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.navbar-list a {
+    margin: 7px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-list img {
+    width: 40px;
+    height: 30px;
+    margin: 7px;
+}
+
+.navbar-list select {
+    border: none;
+    background-color: orange;
+    color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+    .sticky-top {
+        position: relative;
+    }
+
+    .header-1 {
+        background-color: orange;
+    }
+
+    .form-control {
+        margin: 15px;
+    }
+
+    .social-icon {
+        margin: 10px;
+    }
+
+    .search-icon {
+        margin: 15px;
+        width: 25px;
+        height: 30px;
+    }
+
+    #header-sticky {
+        height: 100px;
+    }
+
+    .navbar-nav li {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1044px) {
+    .sticky-top {
+        position: relative;
+    }
+
+    .social-icon {
+        display: flex;
+        flex-direction: row;
+        margin: 3px;
+    }
+
+    .social-icon img {
+        display: flex;
+        margin: 3px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .header-1 {
+        background-color: orange;
+    }
+}
+
+
+
+
+/* 2nd nabar styling starts */
+.img-responsive {
+    padding-left: 120px;
+}
+
+.nav2-items {
+    display: flex;
+    margin: 50px;
+    white-space: nowrap;
+    padding-left: 160px;
+}
+
+.nav2-list a {
+    color: gray;
+    margin: 30px;
+    text-decoration: none;
+
+}
+
+.nav2-list a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.sign-in a {
+    text-decoration: none;
+}
+
+.sign-in .btn {
+    color: white;
+    margin: 40px;
+    /* margin-left: 250px; */
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sign-in .btn:hover {
+    color: orange;
+    background-color: white;
+    border: 1px solid black;
+}
+
+@media screen and (min-width: 320px) and (max-width:576px) {
+    .sign-in .btn {
+        margin: 30px;
+        padding: 8px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:1199px) {
+    .sign-in .btn {
+        margin: 30px;
+        padding: 8px;
+    }
+}
+
+/*  2nd navbar Styling Ends */
+
+/* breadcrumb styling starts */
+
+.nav-gray {
+    background-color: rgba(174, 159, 159, 0.749);
+    height: 30px;
+    padding-left: 140px;
+}
+
+.breadcrumb-item a {
+    color: black;
+    padding: 10px;
+}
+
+/* breadcrumb styling ends */
+
+/* main body styling starts */
+.heading-text {
+    color: orange;
+}
+
+.text {
+    color: black;
+    font-size: medium;
+}
+
+.card img {
+    /* padding-left: 5px;
+    width: 200px; */
+    height: 200px;
+
+}
+
+.image1 img {
+    margin-top: 4px;
+    margin-right: 500px;
+}
+
+
+.card {
+    border: 1px rgba(225, 217, 217, 0.853);
+    width: fit-content;
+    position: relative;
+    width: 95%;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.input-style {
+    margin-left: 20px;
+}
+
+.image2 img {
+    width: 30px;
+    height: 30px;
+}
+
+.remove-button {
+    margin-right: 20px;
+}
+
+.placeorder-btn {
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.placeorder-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.placeorder-btn a:hover {
+    color: orange;
+}
+
+.placeorder-btn:hover {
+    border: 1px solid black;
+    background-color: white;
+}
+
+/* main body styling ends */
+
+
+/* Payment Method Section Starts */
+
+
+.section-3 {
+    display: grid;
+    border: 1px solid black;
+}
+
+
+.payment-section {
+    padding: 10px;
+    margin: 10px;
+}
+
+.payment-section h2 {
+    font-size: medium;
+}
+
+.payment-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.payment-head h3 {
+    font-size: 15px;
+}
+
+
+.para-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Payment Method Section Ends */
+
+/* Footer Section Starts */
+
+/* .row {
+    margin: 50px;
+} */
+
+.lists {
+    font-size: medium;
+    color: grey;
+    line-height: 10px;
+}
+
+.subscribe-btn {
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Move Top BUtton Styling starts */
+
+.move-top {
+    float: right;
+    max-width: 50px;
+    height: auto;
+}
+
+#scrollUp {
+    position: sticky;
+    left: 98%;
+    bottom: 50px;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 800;
+    box-shadow: 0, 10px, 15px, rgba(25, 25, 25, 0.1);
+}
+
+/* Move Top Button Styling Ends */
+
+/* Last Section Footer Starts */
+
+.footer-part {
+    margin: 5px;
+}
+
+.footer-heading {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    top: 20px;
+}
+
+.footer-heading h4 {
+    margin-left: 15px;
+    margin-right: 65px;
+}
+
+.last-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-payment {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+}
+
+.footer-payment img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.footer-connect {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+}
+
+.footer-connect img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Last section Footer Ends */
