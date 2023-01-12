@@ -1,7 +1,7 @@
 # Swag-of-India
 
 # NOTE:- IT IS SUPPOSED TO WORK WITH LIVE SERVER ONLY.
-# This Project is based on E-commerce website which is created by using HTML5, CSS3, BOOTSTAP5, and JAVASCRIPT.The Project has multiple pages which consist of HTML as a structure and CSS as a styling and BOOTSTRAP as frameWork. Also JavaScript is used to make sure that user can contact based on the country code and different flag is being selected based on their Country.
+ This Project is based on E-commerce website which is created by using HTML5, CSS3, BOOTSTAP5, and JAVASCRIPT.The Project has multiple pages which consist of HTML as a structure and CSS as a styling and BOOTSTRAP as frameWork. Also JavaScript is used to make sure that user can contact based on the country code and different flag is being selected based on their Country.
 
  JavaScript has an important role which consists of navigation bar sticky, move-top button, contact number code and flag changes as per their Country requirement.
  If someone wants to add the product in their cart list , they can do that by clicking of Add to Cart Button.They can view and move to Wishlist as well.
