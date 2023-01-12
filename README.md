@@ -10,9 +10,9 @@
  These all functionalities are there just by using JavaScript. 
 
 # Main pages to check the website properly are:-
-1) Add to cart and wishlist pages which you will get by adding any Product to cart and wishlist Page. Sign-in button is in second navigation bar and before that there two button icon ,add to cart icon and wishlist icon that will redirect you to the Add to cart page and Wishlist Page.
-2)Sign-in Button will redirect you to the Login and Create account. On clicking Of any Swag of India logo in navbar you will directly come to the home page.
+1) Add to cart and wishlist pages which you will get by adding any Product to cart and wishlist Page. Sign-in button is in second navigation bar and before that there two button icon ,add to cart icon and wishlist icon that will redirect you to the Add to cart page and Wishlist Page.\ 
+2)Sign-in Button will redirect you to the Login and Create account. On clicking Of any Swag of India logo in navbar you will directly come to the home page.\ 
 3) After opening Cart and Wishlist page you can check by increasing and decreasing the quantity , the price will be changed as per your action.\ 
-4) By clicking of Place Order button which you will find in cart and Wishlist page, it will redirect you to the payment options and by clicking of Pay button your order has been successfully Placed. \ 
-5) After order placed you can also track your Order.\ 
-6)If you need any help or FAQ , that page is also there.\ 
+4) By clicking of Place Order button which you will find in cart and Wishlist page, it will redirect you to the payment options and by clicking of Pay button your order has been successfully Placed. \  
+5) After order placed you can also track your Order.\  
+6)If you need any help or FAQ , that page is also there.\  
